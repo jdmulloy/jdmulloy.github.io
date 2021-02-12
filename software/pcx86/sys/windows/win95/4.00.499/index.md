@@ -7,6 +7,12 @@ machines:
   - id: deskpro386
     type: pcx86
     config: /configs/pcx86/machine/compaq/deskpro386/vga/4096kb/machine.xml
+    drives: '[{name:"68Mb Hard Disk",type:4,path:"/harddisks/pcx86/68mb/WIN95.json"}]'
+    autoMount:
+      A:
+        name: MS-DOS 6.22 (1.44M Disk 1)
+      B:
+        name: Windows 95 (Build 499 Disk 01)
 ---
 
 The PCjs Project was first to unearth this pre-release version of Windows 95 since its *extremely* limited
