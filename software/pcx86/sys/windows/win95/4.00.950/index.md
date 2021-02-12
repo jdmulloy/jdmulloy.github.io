@@ -10,7 +10,6 @@ preview: images/screenshot.png
 machines:
   - id: deskpro386
     type: pcx86
-    state: state.json
     config: /configs/pcx86/machine/compaq/deskpro386/vga/14336kb/machine.xml
     drives: '[{name:"68Mb Hard Disk",type:4,path:"/harddisks/pcx86/68mb/WIN95.json"}]'
     autoMount:
