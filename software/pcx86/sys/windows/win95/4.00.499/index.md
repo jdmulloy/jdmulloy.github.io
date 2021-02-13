@@ -7,7 +7,7 @@ machines:
   - id: deskpro386
     type: pcx86
     config: /configs/pcx86/machine/compaq/deskpro386/vga/4096kb/machine.xml
-    drives: '[{name:"68Mb Hard Disk",type:4,path:"/harddisks/pcx86/68mb/WIN95.json"}]'
+    drives: '[{name:"117Mb Hard Disk",type:9}]'
     autoMount:
       A:
         name: MS-DOS 6.22 (1.44M Disk 1)
