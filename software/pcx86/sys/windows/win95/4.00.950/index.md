@@ -11,10 +11,10 @@ machines:
   - id: deskpro386
     type: pcx86
     config: /configs/pcx86/machine/compaq/deskpro386/vga/14336kb/machine.xml
-    drives: '[{name:"68Mb Hard Disk",type:4,path:"/harddisks/pcx86/68mb/WIN95.json"}]'
+    drives: '[{name:"127Mb Hard Disk",type:CHS,path:"https://files.jdmulloy.com/pcjs/WIN95.json"}]'
     autoMount:
       A:
-        name: None
+        name: Windows 95 (RTM Boot)
       B:
         name: None
 ---
