@@ -6,7 +6,7 @@ redirect_from: /disks/pcx86/windows/win95/4.00.499/
 machines:
   - id: deskpro386
     type: pcx86
-    config: /configs/pcx86/machine/compaq/deskpro386/vga/4096kb/machine.xml
+    config: /configs/pcx86/machine/compaq/deskpro386/vga/14336kb/machine.xml
     drives: '[{name:"117Mb Hard Disk",type:9}]'
     autoMount:
       A:
